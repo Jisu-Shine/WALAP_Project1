@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int selected = 1;
         while (true){
             System.out.println("=========menu=========");
             System.out.println("\t 1. 도서 추가");
@@ -16,8 +15,8 @@ public class Main {
             System.out.println("\t 6. 독서 상태 검색");
             System.out.println("======================");
 
-            System.out.printf("실행할 작업의 번호를 입력하세요 : ");
-            selected = s.nextInt();
+            System.out.print("실행할 작업의 번호를 입력하시오 : ");
+            int selected = s.nextInt();
 
             switch (selected) {
                 case 1:
