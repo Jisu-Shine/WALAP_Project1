@@ -14,8 +14,8 @@
 
 ## 데이터 구조
  MVC 패턴
- **BookModel** : book에 대한 모델 관리
- **BookView** : console 창에 출력
- **BookController** : Data 관리
+ * **BookModel** : book에 대한 모델 관리
+ * **BookView** : console 창에 출력
+ * **BookController** : Data 관리
 
 ## 실행화면
