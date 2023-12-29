@@ -5,21 +5,21 @@ import java.util.Date;
 public class BookModel {
     private String title;
     private String author;
-    private Date startDate;
-    private Date lastReadDate;
+    private String startDate;
+    private String lastReadDate;
     private int pagesRead;
     private int totalPages; // 추가: 전체 페이지 수
     private double progress;
 
     // 생성자
-    public BookModel(String title, String author, Date startDate, Date lastReadDate, int pagesRead, int totalPages) {
+    public BookModel(String title, String author, String startDate, int totalPages) {
         this.title = title;
         this.author = author;
         this.startDate = startDate;
-        this.lastReadDate = lastReadDate;
-        this.pagesRead = pagesRead;
+        this.lastReadDate = startDate;
+        this.pagesRead = 0;
         this.totalPages = totalPages;
-        this.progress = totalPages/pagesRead;
+        this.progress = pagesRead/(float)totalPages*100;
     }
     // Getter 및 Setter 메서드들
     public String getTitle() {
@@ -38,19 +38,19 @@ public class BookModel {
         this.author = author;
     }
 
-    public Date getStartDate() {
+    public String getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(String startDate) {
         this.startDate = startDate;
     }
 
-    public Date getLastReadDate() {
+    public String getLastReadDate() {
         return lastReadDate;
     }
 
-    public void setLastReadDate(Date lastReadDate) {
+    public void setLastReadDate(String lastReadDate) {
         this.lastReadDate = lastReadDate;
     }
 
@@ -80,14 +80,14 @@ public class BookModel {
 
     @Override
     public String toString() {
-        return "Book{" +
+        return
                 "제목: " + title + '\'' +
-                "저자: ='" + author + '\'' +
+                "저자: " + author + '\'' +
                 "독서 시작 날짜: " + startDate +
                 "마지막 독서 날짜: " + lastReadDate +
                 "읽은 페이지 수: " + pagesRead +
                 "전체 페이지 수: " + totalPages +
-                "진행률: " + progress +
-                '}';
+                "진행률: " + progress
+                ;
     }
 }
