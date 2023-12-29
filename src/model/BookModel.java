@@ -85,8 +85,8 @@ public class BookModel {
                 "저자: " + author + '\'' +
                 "독서 시작 날짜: " + startDate +
                 "마지막 독서 날짜: " + lastReadDate +
-                "읽은 페이지 수: " + pagesRead +
-                "전체 페이지 수: " + totalPages +
+                "읽은 쪽 수: " + pagesRead +
+                "전체 쪽 수: " + totalPages +
                 "진행률: " + progress
                 ;
     }

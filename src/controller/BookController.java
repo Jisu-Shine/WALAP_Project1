@@ -61,7 +61,7 @@ public class BookController {
             book.setPagesRead(pagesRead);
         }
         book.setProgress(pagesRead/(float)book.getTotalPages()*100);
-        System.out.println("책갈피를 설정하였습니다:)");
+        System.out.println("책갈피를 설정하였습니다:-)");
     }
 
 
