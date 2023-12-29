@@ -35,7 +35,7 @@
 
 <br/> <img width="563" alt="스크린샷 2023-12-29 오후 10 01 37" src="https://github.com/Jisu-Shine/WALAP_Project1/assets/154987383/cfc74d90-fb85-41a3-94ef-1e1e986d7110">
 
-<br/> <img width="555" alt="스크린샷 2023-12-29 오후 10 02 32" src="https://github.com/Jisu-Shine/WALAP_Project1/assets/154987383/a86c97b9-e0f3-4e60-972d-7d0cfce57edb">
+<br/> <img width="571" alt="스크린샷 2023-12-29 오후 10 09 54" src="https://github.com/Jisu-Shine/WALAP_Project1/assets/154987383/b5be8fb8-27ea-4de0-842d-5fbf5e5d40c0">
 
 <br/> <img width="249" alt="스크린샷 2023-12-29 오후 10 02 53" src="https://github.com/Jisu-Shine/WALAP_Project1/assets/154987383/75a20fda-a9ad-4284-8216-a5b62814131f">
 
